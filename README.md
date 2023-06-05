@@ -9,12 +9,7 @@ This project is a Python program that converts images into ASCII art.
 
 ## Installation
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your_username/Image2ASCII.git
-```
-
+1. Clone the repository
 
 2. Navigate to the project directory:
 
