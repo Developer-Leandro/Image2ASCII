@@ -1,3 +1,4 @@
+import sys
 from PIL import Image
 
 # Define ASCII characters used for mapping grayscale values
@@ -48,5 +49,8 @@ def image_to_ascii(image_path):
         print(f"ASCII art saved to {file_name}.")
 
 # Usage example
-image_path = "PATH_TO_PICTURE"
-image_to_ascii(image_path)
+if len(sys.argv) != 2:
+    print("Please provide the path to the image as a command line argument.")
+else:
+    image_path = sys.argv[1]
+    image_to_ascii(image_path)
