@@ -14,7 +14,7 @@ This project is a Python program that converts images into ASCII art.
 2. Navigate to the project directory:
 
 ```bash
-cd ascii-art-converter
+cd Image2ASCII
 ```
 
 
@@ -32,7 +32,7 @@ pip install Pillow
 4. Execute the program:
 
 ```
-python ascii_converter.py image_path.jpg
+python script.py image_path.jpg
 ```
 
 
