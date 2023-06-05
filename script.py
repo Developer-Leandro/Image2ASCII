@@ -43,7 +43,8 @@ def image_to_ascii(image_path):
     # Save ASCII art to a file
     save_to_file = input("Do you want to save the ASCII art to a file? (Y/N): ")
     if save_to_file.upper() == "Y":
-        file_name = input("Enter the file name: ")
+        file_name = input("Enter the file name (without extension): ")
+        file_name += ".txt"  # Add .txt extension
         with open(file_name, "w") as file:
             file.write(ascii_image)
         print(f"ASCII art saved to {file_name}.")
