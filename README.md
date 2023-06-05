@@ -12,7 +12,7 @@ This project is a Python program that converts images into ASCII art.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your_username/ascii-art-converter.git
+git clone https://github.com/your_username/Image2ASCII.git
 ```
 
 
